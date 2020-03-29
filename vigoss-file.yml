@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+logging:
+  path: /alidata1/admin/
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: TRACE
+    org.springframework.cloud.config.server: DEBUG
